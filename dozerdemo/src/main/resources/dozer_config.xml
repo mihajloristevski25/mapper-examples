@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://dozer.sourceforge.net
+      http://dozer.sourceforge.net/schema/beanmapping.xsd">
+    <mapping>
+        <class-a>com.example.dozerdemo.domain.Person</class-a>
+        <class-b>com.example.dozerdemo.dto.PersonDTO</class-b>
+        <field>
+            <a>loc.adress</a>
+            <b>personAdress</b>
+        </field>
+        <field>
+            <a>loc.country</a>
+            <b>personCountry</b>
+        </field>
+         <field>
+            <a>loc.city</a>
+            <b>personCity</b>
+        </field>
+    </mapping>
+</mappings>
+
